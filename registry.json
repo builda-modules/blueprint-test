@@ -1,31 +1,15 @@
 {
-  "name": "red-fox",
-  "type": "scaffold",
-  "version": "1.0.1",
-  "author": "Alex Foxleigh (https://www.alexfoxleigh.com/)",
+  "name": "blueprint-test",
+  "type": "blueprint",
+  "version": "0.0.1",
+  "author": {
+    "name": "Alex Foxleigh",
+    "builda_user": "foxleigh81"
+  },
   "funding": "https://www.patreon.com/builda",
-  "moduleUrl": "https://github.com/builda-modules/scaffold_red-fox",
-  "keywords": [
-    "react",
-    "storybook",
-    "storybook-mdx",
-    "typescript",
-    "sass",
-    "sass-modules",
-    "scss",
-    "scss-modules"
-  ],
-  "files": [
-    "index.stories.mdx",
-    "index.tsx",
-    "styles.module.scss"
-  ],
-  "license": "MIT",
-  "prefabs": [
-    {
-      "name": "the-burrows",
-      "version": "^1.0.0"
-    }
+  "url": "https://github.com/builda-modules/blueprint-test",
+  "prefabsRequired": [
+    "@github:builda-modules/prefab-test"
   ],
   "dependencies": {
     "react": "^17.0.0",
@@ -44,5 +28,15 @@
       "replace": "TYPE",
       "with": "component"
     }
-  ]
+  ],
+  "keywords": [
+    "react",
+    "storybook",
+    "storybook-mdx",
+    "typescript",
+    "sass",
+    "sass-modules",
+    "scss",
+    "scss-modules"
+  ],
 }

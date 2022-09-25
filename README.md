@@ -1,3 +1,3 @@
-# Builda Scaffold: Red Fox
+# Builda blueprint - test
 
-This is a transient repo for me to test out how I'm going to structure scaffold packages. I'd advise against using this for anything, should you come across it.
+This is just a test repo to test the builda blueprint system.
