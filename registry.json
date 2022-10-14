@@ -8,9 +8,6 @@
   },
   "funding": "https://www.patreon.com/builda",
   "url": "https://github.com/builda-modules/blueprint-test",
-  "prefabsRequired": [
-    "@github:builda-modules/prefab-test"
-  ],
   "dependencies": {
     "react": "^17.0.0",
     "typescript": "^4.5.0",
